@@ -617,6 +617,9 @@
               }
             }
           },
+          "slug": {
+            "type": "string"
+          },
           "created_by": {
             "required": [
               "id",
@@ -805,6 +808,9 @@
                 }
               }
             }
+          },
+          "slug": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
