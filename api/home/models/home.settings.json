@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "introduction_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "profile_image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image.image",
+      "required": true
+    }
+  }
+}
