@@ -516,9 +516,7 @@
     "schemas": {
       "Category": {
         "required": [
-          "id",
-          "name",
-          "category_image"
+          "id"
         ],
         "properties": {
           "id": {
@@ -779,9 +777,6 @@
         }
       },
       "NewCategory": {
-        "required": [
-          "name"
-        ],
         "properties": {
           "name": {
             "type": "string"
