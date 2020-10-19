@@ -113,8 +113,3 @@ exports
 .cache
 build
 
-############################
-# Heroku
-############################
-package-lock.json
-yarn.lock
