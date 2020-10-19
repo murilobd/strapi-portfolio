@@ -13,12 +13,12 @@ function createSlug(str) {
 module.exports = {
   lifecycles: {
     beforeCreate: async (data) => {
-      if (data.Title) {
-        data.slug = createSlug(data.Title);
+      if (data.name) {
+        data.slug = createSlug(data.name);
       }
     },
     beforeUpdate: async (params, data) => {
-      data.slug = createSlug(data.Title);
+      data.slug = createSlug(data.name);
     },
   },
 };
