@@ -2,14 +2,16 @@
   "name": "strapi-portfolio",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Backend for Amanda Medeirosd de Freitas portfolio",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "strapi-provider-upload-cloudinary": "^3.1.4"
+  },
   "dependencies": {
     "knex": "<0.20.0",
     "pg": "^8.3.3",
@@ -24,11 +26,10 @@
     "strapi-plugin-email": "3.1.4",
     "strapi-plugin-upload": "3.1.4",
     "strapi-plugin-users-permissions": "3.1.4",
-    "strapi-provider-upload-cloudinary": "^3.2.4",
     "strapi-utils": "3.1.4"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Murilo Boareto Delefrate"
   },
   "strapi": {
     "uuid": "d3777037-26be-46bc-a91b-3bc01fefa248"
